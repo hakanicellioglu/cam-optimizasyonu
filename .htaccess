@@ -1,0 +1,6 @@
+DirectoryIndex cam.php index.php index.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# köke gelince cam.php çalışsın
+RewriteRule ^$ cam.php [L]
+</IfModule>
